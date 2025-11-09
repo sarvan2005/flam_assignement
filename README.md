@@ -17,7 +17,9 @@ Unknown variables: θ,M,X
 
 With constraints:
 
-0∘<θ<50∘,−0.05<M<0.05,0<X<100
+0∘<θ<50∘,
+−0.05<M<0.05,
+0<X<100
 
 Parameter `t` range:
 
