@@ -1,45 +1,33 @@
 # flam_assignement
 FLAM Assignment for Research and Development / AI
 
-from pathlib import Path
+Parametric Curve Fitting — README
 
-readme_text = """## 📌 Parametric Curve Fitting — README
-
-### 🔹 Problem Statement
+#Problem Statement
 
 We are given a list of observed 2D points `(x, y)` and the following parametric curve:
 
-\\[
-\\begin{aligned}
-x(t) &= t\\cos\\theta \\;-\\; e^{M|t|}\\sin(0.3t)\\sin\\theta \\;+\\; X,\\\\[4pt]
-y(t) &= 42 \\;+\\; t\\sin\\theta \\;+\\; e^{M|t|}\\sin(0.3t)\\cos\\theta,
-\\end{aligned}
-\\]
-
+x(t)​=tcosθ−eM∣t∣sin(0.3t)sinθ+X
+y(t)=42+tsinθ+eM∣t∣sin(0.3t)cosθ,
+	​
 Unknown variables:
 
-\\[
-\\theta,\\; M,\\; X
-\\]
+θ,M,X
 
 With constraints:
 
-\\[
-0^\\circ < \\theta < 50^\\circ,\\quad -0.05 < M < 0.05,\\quad 0 < X < 100
-\\]
+0∘<θ<50∘,−0.05<M<0.05,0<X<100
 
 Parameter `t` range:
 
-\\[
-6 \\le t \\le 60
-\\]
+6≤t≤60
 
 Goal:  
-**Find θ, M, X that minimize the L1 distance between the observed curve and the modeled curve.**
+Find θ, M, X that minimize the L1 distance between the observed curve and the modeled curve.
 
 ---
 
-### ✅ Final Result
+#Final Result
 
 | Parameter | Value |
 |----------|-------|
@@ -51,9 +39,9 @@ Goal:
 
 ---
 
-### ✅ Final Parametric Equation (LaTeX Submission Format)
+#Final Parametric Equation (LaTeX Submission Format)
 
-```latex
+latex
 \\[
 \\left(
 t\\cos(0.5241)
