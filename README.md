@@ -12,7 +12,7 @@ x(t)​=tcosθ−e^(M∣t∣)sin(0.3t)sinθ+X
 
 y(t)=42+tsinθ+e^(M∣t∣)sin(0.3t)cosθ
 
-​---
+
 Unknown variables: θ,M,X 
 
 With constraints:
