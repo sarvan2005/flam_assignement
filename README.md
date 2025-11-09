@@ -28,13 +28,15 @@ Find θ, M, X that minimize the L1 distance between the observed curve and the m
 
 ---
 How to Run the code:
+
 1)Requirements:
 
 Make sure Python 3.8+ is installed.
 
 Install dependencies:
-
+```
 pip install numpy pandas scipy matplotlib
+```
 
 2)Steps to execute:
 
@@ -44,7 +46,9 @@ Ensure xy_data.csv is in the same directory as the script.
 
 Run the code:
 
+```
 python flam.py
+```
 ---
 
 Final Result:
