@@ -4,7 +4,7 @@ FLAM Assignment for Research and Development / AI
 Parametric Curve Fitting — README
 
 ---
-Problem Statement
+Problem Statement:
 
 We are given a list of observed 2D points `(x, y)` and the following parametric curve:
 
@@ -28,7 +28,7 @@ Find θ, M, X that minimize the L1 distance between the observed curve and the m
 
 ---
 
-Final Result
+Final Result:
 
 | Parameter | Value |
 |----------|-------|
@@ -40,7 +40,7 @@ Final Result
 
 ---
 
-Final Parametric Equation (LaTeX Submission Format)
+Final Parametric Equation (LaTeX Submission Format):
 
 ```latex
 x = \left( t*\cos(0.5241) - e^{-0.0045502\left|t\right|} \cdot \sin(0.3t)\sin(0.5241) + 55.329186 \right)
