@@ -7,12 +7,11 @@ Parametric Curve Fitting — README
 
 We are given a list of observed 2D points `(x, y)` and the following parametric curve:
 
-x(t)​=tcosθ−eM∣t∣sin(0.3t)sinθ+X,
-y(t)=42+tsinθ+eM∣t∣sin(0.3t)cosθ
-	​
-Unknown variables:
+x(t)​=tcosθ−eM∣t∣sin(0.3t)sinθ+X, 
+y(t)=42+tsinθ+eM∣t∣sin(0.3t)cosθ, 
 
-θ,M,X
+	​
+Unknown variables: θ,M,X 
 
 With constraints:
 
@@ -41,7 +40,7 @@ Find θ, M, X that minimize the L1 distance between the observed curve and the m
 
 #Final Parametric Equation (LaTeX Submission Format)
 
-latex
+```latex
 \\[
 \\left(
 t\\cos(0.5241)
