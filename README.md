@@ -43,12 +43,5 @@ Find θ, M, X that minimize the L1 distance between the observed curve and the m
 #Final Parametric Equation (LaTeX Submission Format)
 
 ```latex
-\\[
-\\left(
-t\\cos(0.5241)
-- e^{-0.0045502\\left|t\\right|}\\sin(0.3t)\\sin(0.5241)
-+ 55.329186,\\;
-42 + t\\sin(0.5241)
-+ e^{-0.0045502\\left|t\\right|}\\sin(0.3t)\\cos(0.5241)
-\\right)
-\\]
+x = \\left(t\\cos(0.5241) - e^{-0.0045502\\left|t\\right|}\\sin(0.3t)\\sin(0.5241)+ 55.329186,\\;
+y = 42 + t\\sin(0.5241) + e^{-0.0045502\\left|t\\right|}\\sin(0.3t)\\cos(0.5241) \\right)
