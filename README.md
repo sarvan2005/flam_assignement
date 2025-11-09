@@ -33,7 +33,7 @@ How to Run the code:
 
 1)Requirements:
 
-Make sure Python 3.8+ is installed.
+Make sure Python 3.0+ is installed.
 
 Install dependencies:
 ```
