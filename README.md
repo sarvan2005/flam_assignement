@@ -3,6 +3,7 @@ FLAM Assignment for Research and Development / AI
 
 Parametric Curve Fitting — README
 
+---
 #Problem Statement
 
 We are given a list of observed 2D points `(x, y)` and the following parametric curve:
@@ -11,7 +12,7 @@ x(t)​=tcosθ−e^(M∣t∣)sin(0.3t)sinθ+X
 
 y(t)=42+tsinθ+e^(M∣t∣)sin(0.3t)cosθ
 
-​
+​---
 Unknown variables: θ,M,X 
 
 With constraints:
