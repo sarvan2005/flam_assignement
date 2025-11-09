@@ -7,8 +7,8 @@ Parametric Curve Fitting — README
 
 We are given a list of observed 2D points `(x, y)` and the following parametric curve:
 
-x(t)​=tcosθ−eM∣t∣sin(0.3t)sinθ+X
-y(t)=42+tsinθ+eM∣t∣sin(0.3t)cosθ,
+x(t)​=tcosθ−eM∣t∣sin(0.3t)sinθ+X,
+y(t)=42+tsinθ+eM∣t∣sin(0.3t)cosθ
 	​
 Unknown variables:
 
